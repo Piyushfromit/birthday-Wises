@@ -11,7 +11,10 @@
     margin: 0;
     background: #020202;
     cursor: crosshair;
+    width: 100%;
+    overflow-x: hidden;
   }
+ 
   canvas{display:block}
   h1 {
     position: absolute;
@@ -26,7 +29,16 @@
     user-select: none;
   }
 
+   #gotobox{
+       background-color: aquamarine;
+       border-radius: 10px;
+       cursor: pointer;
 
+    }
+    #gotobox:hover{
+       background-color: rgb(9, 109, 76);
+       color: #fff;
+    }
 
 
   </style>
@@ -36,12 +48,12 @@
 
 </head>
 <body>
-  
+  <button onclick="window.location.href='box.html'"  id="gotobox">Click me</button>
   
   <h1>Piyush</h1>
   <canvas id="birthday"></canvas>
 
-  <button onclick="window.location.href='box.html'"  id="gotobox">Click me</button>
+  
 
 
 </body>

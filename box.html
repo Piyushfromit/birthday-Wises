@@ -15,6 +15,7 @@ body {
   background-color: rgb(233, 247, 218);
 }
 .birthday-gift {
+  
   position: relative;
 }
 .birthday-gift:before {
@@ -210,6 +211,21 @@ input#click {
   top:-5px;
   animation: fire 0.35s ease-in-out infinite, color2 0.2s linear infinite;
 }
+
+    #gotoindex{
+       background-color: aquamarine;
+       border-radius: 10px;
+       cursor: pointer;
+       margin-top: 0px;
+
+    }
+    #gotoindex:hover{
+       background-color: rgb(9, 109, 76);
+       color: #fff;
+    }
+
+
+
   
 @keyframes fire3 {
   100% { transform:translateX(20px) translateY(-93px); 
@@ -247,7 +263,9 @@ input#click {
 
 </head>
 <body>
-    
+
+
+  
 
 
     <div class="birthday-gift">
@@ -264,9 +282,9 @@ input#click {
             <div class="spark6"></div>
           </div>
           </div>
-      </div>
+    </div>
 
-      <button onclick="window.location.href='index.html'"  id="gotobalun">Click me</button>
+    <button onclick="window.location.href='index.html'"  id="gotoindex">Click me</button>
 
-    </body>  
+</body>  
 </html>
